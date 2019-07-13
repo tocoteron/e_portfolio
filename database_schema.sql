@@ -120,6 +120,13 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- 初期の教師ユーザー
+--
+
+INSERT INTO `users` (`id`, `password`, `student_id`, `name`, `permission_level`, `class_id`, `created_at`) VALUES
+('teacher', '$2y$10$NvThMhY7JtHAGsA5Ccl8t.yMiY6/MpACb6JDn.5rruvDk92Insq0K', '0123456789', 'teacher', 1, 'teacher', '2019-07-13 18:35:17');
+
+--
 -- Indexes for dumped tables
 --
 
