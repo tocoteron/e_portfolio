@@ -16,11 +16,13 @@ This is an e-Portfolio, teachers and students can learn interactively by using t
     4. `source ./database_schema.sql`
     5. done.
 2. Create `./database_config.php`, settings file of the database.
-    <?
-    $db_host = '127.0.0.1';
-    $db_name = 'e-portfolio';
-    $db_user = 'user_name';
-    $db_password = 'user_password';
+```
+<?
+$db_host = '127.0.0.1';
+$db_name = 'e-portfolio';
+$db_user = 'user_name';
+$db_password = 'user_password';
+```
 3. Move this repository in Apache document root.
 
 ### Usage
